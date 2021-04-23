@@ -8,6 +8,8 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//POJO
+
 @Entity
 @Table(name = "userInfo")
 public class User {
