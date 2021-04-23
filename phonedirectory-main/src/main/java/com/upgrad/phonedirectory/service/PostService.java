@@ -15,10 +15,13 @@ public class PostService {
     private PostRepository postRepository;
 
 
+
+    //Saves the posts from the input boxes in the post table in the data base by calling the repo.
     public void addContact(Post post) {
         postRepository.save(post);
     }
 
+   //If the post of the specefic user is present, you check it and then save it in a list
     public List<Post> getContact(User user){
         Optional<Post> post=postRepository.findById(user.getId());
         if(post.isPresent()){
@@ -32,6 +35,7 @@ public class PostService {
 
     }
 
+    //Simple delete operation by calling the repo.
     public void deletePost(Integer postId) {
             postRepository.deleteById(postId);
     }
