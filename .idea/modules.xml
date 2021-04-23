@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/phonedirectory-main/PhoneDirectory.iml" filepath="$PROJECT_DIR$/phonedirectory-main/PhoneDirectory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/phonedirectory-main.iml" filepath="$PROJECT_DIR$/.idea/phonedirectory-main.iml" />
+    </modules>
+  </component>
+</project>
